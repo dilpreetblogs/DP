@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style media="screen">
+body{
+  font-family: sans-serif;
+}
+
+.main{
+  position: fixed;
+
+}
+
+
+    #a{
+      background-color: tomato;
+      height: 60px;
+      width: 60px;
+      position: absolute;
+      top: 20px;
+      left: 5px;
+      animation-name: adiv;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-delay: 1s;
+    }
+
+    #b{
+      background-color: #2B65EC;
+      height: 60px;
+      width: 60px;
+      position: absolute;
+      top: 20px;
+      left: 100px;
+      animation-name: bdiv;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-delay: 1s;
+    }
+    #c{
+      background-color: #4CC417;
+      height: 60px;
+      width: 60px;
+      position: absolute;
+      top: 100px;
+      left: 5px;
+      animation-name: cdiv;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-delay: 1s;
+    }
+    @keyframes adiv {
+    0%{left: 5px;top: 20px;}
+    25%{left: 100px;top: 20px;}
+    50%{left: 100px;top: 100px;}
+    75%{left: 5px;top: 100px;}
+    100%{left: 5px;top: 20px;}
+    }
+    @keyframes bdiv {
+    0%{left: 100px;top: 20px;}
+    25%{left: 100px;top: 100px;}
+    50%{left: 5px;top: 100px;}
+    75%{left: 5px;top: 20px;}
+    100%{left: 100px;top: 20px;}
+    }
+    @keyframes cdiv {
+    0%{left: 5px;top: 100px;}
+    25%{left: 5px;top: 20px;}
+    50%{left: 100px;top: 20px;}
+    75%{left: 100px;top: 100px;}
+    100%{left: 5px;top: 100px;}
+    }
+
+
+.heading{
+  float: right;
+  margin-top: 0px;
+position: fixed;
+top: 0px;
+right: 40px;
+background-color: white;
+width: 1000px;
+text-align: right;
+
+
+}
+
+
+li{
+  display: inline;
+  padding-right: 25px;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+
+}
+a:hover{
+  text-decoration: none;
+  color: grey;
+}
+
+
+
+
+
+
+.search{
+  display: inline;
+  float: right;
+
+}
+
+input{
+  padding: 7px;
+  margin-right: 20px;
+}
+
+
+.footer{
+  text-align: center;
+  width: 500px;
+  margin: auto;
+
+}
+.social{
+  height:40px;
+  width: 40px;
+  margin-right: 40px;
+}
+.social:hover{
+height: 50px;
+width: 50px;
+}
+.last{
+  width: : 150px;
+  font-family: sans-serif;
+  font-size: 20px;
+  float: right;
+  padding-right: 50px;
+
+}
+.last:hover{
+  color: grey
+}
+
+.about{
+text-align: center;
+  font-size: 80px;
+color: Skyblue;
+  margin: auto;
+  margin-top: 150px;
+}
+
+
+.info{
+  font-size: 15px;
+  font-family: sans-serif;
+  width: 200px;
+  padding-left: 70px;
+  position: absolute;
+  top: 350px;
+  left:80px;
+}
+.placeholders{
+   font-size: 20px;
+  font-family: sans-serif;
+  width: 400px;
+  position: absolute;
+  top: 342px;
+  left:450px;
+  float: right;
+}
+.message{ font-size: 30px;
+font-family: sans-serif;
+position: absolute;
+width: 40px;
+top: 342px;
+left:800px;
+
+}
+
+.aaa{
+  display: inline;
+}
+
+
+#ll{
+  height: 30px;
+  width: 300px;
+
+}
+#ph{
+  height: 135px;
+  width: 480px;
+  padding: 10px;
+  font-size: 18px;
+}
+#sub{
+width: 480px;
+height: 52px;
+background-color: skyblue;
+border: 2px solid skyblue;
+font-size: 20px;
+color: white;
+}
+p{
+  text-align: center;
+  font-size: 50px;
+  color: skyblue;
+  font-family: sans-serif;
+}
+    </style>
+    <meta charset="utf-8">
+    <title>Contact_Me</title>
+  </head>
+  <body>
+    <div class="heading"><br>
+      <form class="search" method="get">
+        <label for="abc"><img src="/images/search.png" alt="search"></label>
+      <input id="abc"type="search" name="Search" value=""placeholder="Anything">
+      <input type="submit" value="Search">
+    </form><br><br><br>
+      <ul>
+        <li><a href="portfolio.html">Home</a></li>
+        <li><a href="about_me.html">About Me</a></li>
+        <li><a href="backgrounds.html">Favourite Backgrounds</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+
+
+    </div><br>
+<div class="main">
+
+
+    <div id="a">
+
+    </div>
+    <div id="b">
+
+    </div>
+    <div id="c">
+</div>
+
+</div>
+<div class="about">
+  Say Hello!
+
+</div>
+<br><br>
+<div class="aaa">
+
+
+<div class="info">
+  CALL ME:<br>9914778828
+  <br><br><br>
+  ADDRESS:<br>Kairon Nangal, Chawinda Devi <br>Amritsar.
+  <br><br><br>
+  E-MAIL:<br>dilpreetr18@gmail.com
+</div>
+
+
+
+<form method="get">
+    <div class="contact">
+
+        <div class="placeholders">
+            <input id="ll" type="text" placeholder="Name"><br><br><br>
+            <input id="ll" type="text" placeholder="E-MAIL"><br><br><br>
+            <input id="ll" type="text" placeholder="Subject">
+        </div>
+        <div class="message">
+            <textarea id="ph"placeholder="Message"></textarea><br><br>
+            <input id="sub"type="submit" value="Send">
+        </div>
+    </div>
+</form>
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p>Thanks For Visiting!</p>
+<br>
+<div class="last">
+  <a href="https://accounts.google.com/b/0/AddMailService">dilpreetr18@gmail.com</a>
+
+</div>
+<div class="footer">
+<a href="https://m.facebook.com"><img class="social" src="/images/facebook.png" alt="facebook"></a>
+<a href="https://twitter.com"><img class="social" src="/images/twitter.png" alt="twitter"></a>
+<a href="https://plus.google.com"><img class="social" src="/images/googleplus.png" alt="googe+"></a>
+<a href="https://m.youtube.com"><img class="social" src="/images/youtube.png" alt="you tube"></a>
+<a href="https://www.whatsapp.com"><img class="social" src="/images/whatsapp.png" alt="whatsapp"></a>
+</div>
+
+
+
+
+
+
+  </body>
+</html>
